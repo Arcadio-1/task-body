@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
+import { ThemeProvider } from "@mui/material";
+import { theme } from "@/lib/theme";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,7 +19,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={inter.className}>
-        <main>{children}</main>
+        <ThemeProvider theme={theme}>
+          <main className="bg-gray-900">{children}</main>
+        </ThemeProvider>
       </body>
     </html>
   );
