@@ -25,14 +25,6 @@ export const MainCard: React.FC = () => {
   return (
     <div className="grid place-items-center h-dvh mx-2 py-[4rem]">
       <div className="bg-gray-700 rounded-lg p-3 w-full max-w-lg flex flex-col items-center justify-center gap-5">
-        {/*         <button
-        {/*         <button
-          onClick={() => {
-            setTest("sdsd");
-          }}
-        >
-          adder
-        </button> */}
         <Header />
         <ImageSlider
           setLevel={setLevel}
