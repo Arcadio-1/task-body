@@ -10,7 +10,7 @@ const page = () => {
       <form action={loger}>
         <input type="text" name="name" />
         <button className="text-lime-600" type="submit">
-          adder
+          adder button
         </button>
       </form>
     </div>
