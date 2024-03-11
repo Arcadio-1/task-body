@@ -41,13 +41,13 @@ export const MainSlider: React.FC<Props> = ({ level, setLevel }) => {
   };
 
   function valuetext(value: number) {
-    return `${value}%`;
+    return `${value}yyyyyyyyyyyyyyyyyyy%`;
   }
   return (
     <Slider
       sx={{ "& .MuiSlider-markLabel": { color: "lime", opacity: "50%" } }}
       className={cn("w-[80%] , text-white")}
-      size="small"
+      size="medium"
       value={level}
       max={6}
       step={1}

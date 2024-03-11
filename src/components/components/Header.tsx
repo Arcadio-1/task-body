@@ -1,8 +1,11 @@
 import React from "react";
 import ArrowLeft from "../ui/icons/ArrowLeft";
 import MenuIcon from "../ui/icons/MenuIcon";
+import { useTesting } from "../zustandTodo/state";
 
 export const Header: React.FC = () => {
+  const test = useTesting((state) => state.test);
+
   return (
     <div className="w-full">
       <MenuIcon className="ml-auto" />
@@ -14,6 +17,7 @@ export const Header: React.FC = () => {
           </div>
           <span className="capitalize ml-auto font-thin text-xs">
             body fat percentage
+            {test}
           </span>
         </div>
         <div className="ml-auto text-slate-300">
