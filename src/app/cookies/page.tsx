@@ -4,7 +4,7 @@ import { loger } from "./test";
 import { CookeisPlayGround } from "./-components/CookeisPlayGround";
 
 const page = () => {
-  const test = 10;
+  const test = 18;
   return (
     <div>
       <CookeisPlayGround />
