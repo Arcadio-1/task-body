@@ -8,7 +8,7 @@ import { MainButton } from "./components/MainButton";
 import ImageSlider from "./components/ImageSlider";
 import { useTesting } from "./zustandTodo/state";
 
-export const MainCard = () => {
+export const MainCard: React.FC = () => {
   const [level, setLevel] = useState<number>(1);
   const [selected, setSelected] = useState<number | null>(null);
 
