@@ -6,7 +6,8 @@ import { MainSlider } from "./components/MainSlider";
 import { Dots } from "./components/Dots";
 import { MainButton } from "./components/MainButton";
 import ImageSlider from "./components/ImageSlider";
-export const MainCard = () => {
+
+export const MainCard:React.FC<> = () => {
   const [level, setLevel] = useState<number>(1);
   const [selected, setSelected] = useState<number | null>(null);
 
