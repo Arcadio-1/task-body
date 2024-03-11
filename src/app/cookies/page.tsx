@@ -5,6 +5,7 @@ import { CookeisPlayGround } from "./-components/CookeisPlayGround";
 
 const page = () => {
   const test = 18;
+  const newTest = "new one";
   return (
     <div>
       <CookeisPlayGround />
