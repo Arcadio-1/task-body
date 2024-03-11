@@ -11,7 +11,7 @@ import { useTesting } from "./zustandTodo/state";
 export const MainCard: React.FC = () => {
   const [level, setLevel] = useState<number>(1);
   const [selected, setSelected] = useState<number | null>(null);
-
+  const test = 10;
   // const test = useTesting((state) => state.test);
   // const setTest = useTesting((state) => state.changeTest);
 
