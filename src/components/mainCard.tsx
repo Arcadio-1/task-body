@@ -11,10 +11,13 @@ import { useTesting } from "./zustandTodo/state";
 export const MainCard: React.FC = () => {
   const [level, setLevel] = useState<number>(1);
   const [selected, setSelected] = useState<number | null>(null);
-  const test = 10;
   // const test = useTesting((state) => state.test);
   // const setTest = useTesting((state) => state.changeTest);
 
+  const ytv = 11;
+  const tttt = 12;
+  const yyyyyyyy = 8;
+  const xxx = 3;
   // useEffect(() => {
   //   setTest("w");
   // }, [setTest]);
@@ -23,7 +26,7 @@ export const MainCard: React.FC = () => {
   return (
     <div className="grid place-items-center h-dvh mx-2 py-[4rem]">
       <div className="bg-gray-700 rounded-lg p-3 w-full max-w-lg flex flex-col items-center justify-center gap-5">
-{/*         <button
+        {/*         <button
           onClick={() => {
             setTest("sdsd");
           }}
