@@ -19,6 +19,7 @@ export const MainCard: React.FC = () => {
   const yyyyyyyy = 8;
   const xxx = 3;
   const yyy = 3;
+  const zzz = 3;
   // useEffect(() => {
   //   setTest("w");
   // }, [setTest]);
