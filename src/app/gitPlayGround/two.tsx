@@ -1,7 +1,7 @@
 import React from "react";
 
 const Two = () => {
-  return <div>Two</div>;
+  return <div>Wrong</div>;
 };
 
 export default Two;
